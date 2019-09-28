@@ -1,0 +1,27 @@
+{
+  "name": "codedefective/quake-turkey",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "Latest quake information for Turkey",
+  "keywords": ["Turkey","quake","http","deprem"],
+  "homepage": "https://erdemakbulut.com.tr/quakeTurkey",
+  "authors": [
+    {
+      "name": "Erdem AKBULUT",
+      "email": "erdem@erdemakbulut.com.tr",
+      "homepage": "https://erdemakbulut.com.tr",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "~6.0",
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "exclude-from-classmap": ["/example/"]
+  },
+  "minimum-stability": "dev"
+}
